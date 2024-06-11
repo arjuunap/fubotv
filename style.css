@@ -1,0 +1,293 @@
+body{
+    margin: 0;
+    overflow-x:hidden;
+    font-family: s3;
+}
+@font-face {
+    font-family: s1;
+    src: url(fonts/34A12F_1_0.woff2);
+}
+@font-face {
+    font-family: s3;
+    src: url(fonts/34A12F_2_0.woff2);
+}
+@font-face {
+    font-family: s3;
+    src: url(fonts/34A12F_3_0.woff2);
+}
+@font-face {
+    font-family: s3;
+    src: url(fonts/34A12F_4_0.woff2);
+}
+@font-face {
+    font-family: s5;
+    src: url(fonts/34A12F_5_0.woff2);
+}
+
+header{
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.fubo-logo-header{
+    height: 72px;
+    margin-left: 159px;
+    padding-top: 10px;
+}
+.header-text{
+    margin-right: -164px;
+    margin-top: 14px;
+}
+.header-list{
+    display: flex;
+    font-family:s1;
+    color: rgb(105, 101, 101);
+    padding-right: 323px;
+    font-size: 19.2px;
+}
+.careers{
+    list-style-type: none;
+}
+.press{
+    list-style-type: none;
+    padding-left: 46px;
+}
+.investors{
+    list-style-type: none;
+    padding-left: 46px;
+}
+.section-1{
+    height: 847px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    position: relative;
+}
+ 
+.background-image-container{
+    background-image: url(images/about-bg\ \(1\).png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-background-inner {
+    position: relative;
+    top: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 41px;
+    font-family: s1;
+}
+ 
+.image-playing-div{
+    height: 338px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+.image-center-part{
+    height: 100%;
+    width: 100%;
+}
+.one-para,.two-para,.three-para{
+    text-align: center;
+    line-height: 1.8;
+    font-size: 19px;
+    color: white;
+}
+.container-1{
+    width: 100%;
+    height: 1027px;
+    background: linear-gradient(174deg, rgb(250, 70, 22) 0%, rgb(114, 30, 78) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-video h1{
+    font-size: 41px;
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-family: s1;
+}
+.container-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video{
+    width: 800px;
+    height: 450px;
+}
+.video-para-1,.video-para-2,.video-para-3{
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 19px;
+    font-weight: 500;   
+}
+.section-3{
+    height: 761px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 732px;
+}
+.culture{
+    text-align: center;
+    font-size: 41px;
+    font-family: s1;
+    
+}
+.container-2{
+    height: 100%;
+    margin-top: 84px;
+    margin-left: 20px;
+}
+.image-circle-div{
+    display: flex;
+    justify-content: center;
+}
+.image-circle-1,.image-circle-2,.image-circle-3{
+    height: 306px;
+    width: 306px;
+    border-radius: 180px;
+    padding: 23px;
+}
+.section-2-para{
+    font-size: 19px;
+    text-align: center;
+    line-height: 34px;
+    margin-top: 54px;
+}
+.footer-1{
+    height: 468px;
+    background-color: black;
+}
+.footer-container-1{
+    height: 100%;
+    padding-top: 43px;
+}
+.footer-container-1 h2{
+    color: white;
+    text-align: center;
+    font-size: 41px;
+    font-weight: 800;
+    font-family: s3;
+    letter-spacing: 1px;
+
+}
+.footer-text-1{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: s5;
+    
+}
+.affiliate,.investor,.content{
+    font-size: 32px;
+    cursor: pointer;
+}
+.footer1-first-part-text,.footer1-second-part-text,.footer1-third-part-text{
+    line-height: 1px;
+}
+.footer-text-1 a{
+  color: rgb(137, 137, 137);
+  font-size: 19px;
+}
+.footer1-first-part-text{
+    position: relative;
+    right: 89px;
+}
+.footer1-second-part-text{
+    position: relative;
+    right: 33px;
+}
+.footer1-third-part-text{
+    position: relative;
+    right: 89px;
+}
+.footer2-first-part-text{
+    position: relative;
+    right: 85px;
+}
+.footer2-second-part-text{
+    position: relative;
+    right: 170px;
+}
+.footer2-third-part-text{
+    position: relative;
+    right: 90px;
+}
+.footer-text-2{
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-evenly;
+    color: white;
+    font-family: s5;
+    
+}
+
+
+.fubo-sports,.press-footer,.ad-sales{
+    font-size: 32px;
+    cursor: pointer;
+}
+.footer2-first-part-text,.footer2-second-part-text,.footer2-third-part-text{
+    line-height: 1px;
+}
+.footer-text-2 a{
+  color: rgb(137, 137, 137);
+  font-size: 19px;
+}
+.footer-2{
+    height: 68px;
+    background-color: rgb(47, 50, 51);
+}
+.footer2-text-container{
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.fubo-year{
+    color:  rgb(184, 184, 184);
+    margin-left: 72px;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.fubo-year p{
+   font-weight: 600;
+}
+.footer-list ul{
+    color: rgb(124 122 122);
+    display: flex;
+    list-style-type: none;
+    margin-right:12px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 12px;
+    padding-right: 94px;
+}
+.terms-list,.unsolicated-list,.privacy-list,.cookie-list{
+    margin-left: 10px;
+
+}
